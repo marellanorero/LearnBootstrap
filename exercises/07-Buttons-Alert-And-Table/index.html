@@ -9,26 +9,49 @@
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<title>07 Buttons, Alert and Table</title>
 	</head>
 	<body>
 		<div class="container">
 			<div class="row">
 				<div class="col-6">
-					<h6>Is hard to remember all the bootstap elements</h6>
+					<h1>Is hard to remember all the bootstap elements</h1>
 					<p>The rest seems easy because it was very well thought! Don't you agree?</p>
 					<button type="button" class="btn btn-success">Yes</button>
 					<button type="button" class="btn btn-danger">No</button>
 				</div>
 				<div class="col-6">
+					<i class="fa-solid fa-circle-exclamation"></i>
 					<div class="alert alert-warning" role="alert">If you don't agree some of this people may slap you in the face:</div>
-					<table class="table table-striped">
+					<table class="table">
 						<thead>
-							<h5>First Name</h5>
+							<tr>
+								<th scope="col">First</th>
+								<th scope="col">Last</th>
+								<th scope="col">Email</th>
+							</tr>
 						</thead>
-						<thead>
-							<h5>First Name</h5>
-						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
 					</table>
 				</div>
 			</div>
